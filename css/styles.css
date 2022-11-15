@@ -65,6 +65,10 @@ body {
     padding-top: 0;
 }
 
+.container.no-padding-bottom {
+    padding-bottom: 0;
+}
+
 /* --------------------Site Header!-------------------- */
 
 /* -----Logo----- */
@@ -286,6 +290,32 @@ body {
 
 .filtr {
     background-color: var(--primary-white-color);
+}
+
+.filtr .container.no-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container .filtr-list .title,
+.container .filtr-list .text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container .filtr-list .title {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.container .filtr-list .text {
+    padding-bottom: 20px;
+}
+
+.container .filtr-list {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #EEEEEE;
 }
 
 .filtr-list {
