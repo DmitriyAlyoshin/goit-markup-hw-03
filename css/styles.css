@@ -1,0 +1,279 @@
+:root {
+    --primary-color: #757575;
+    --title-and-btn-color: #212121;
+    --secondary-bgd-color: #F5F4FA;
+    --footer-bgd-color: #2F303A;
+    --accent-color: #2196F3;
+    --hero-btn-accent-color: #188CE8;
+    --primary-white-color: #ffffff;
+    --footer-contacts-color: #ffffff60;
+    --primary-black-color: #000000;
+    --button-bgd-color: #F5F4FA;
+}
+
+body {
+    color: var(--primary-color);
+    /* background-color: var(--primary-white-color); */
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+    color: var(--title-and-btn-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* --------------------Site Header!-------------------- */
+
+/* -----Logo----- */
+
+.page-header {
+    background-color: var(--primary-white-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-header {
+    color: var(--primary-black-color);
+
+}
+
+.logo-part {
+    color: var(--accent-color);
+}
+
+/* .logo-header:hover,
+.logo-header:focus {
+    color: var(--accent-color);
+} */
+
+/* -----Site nav----- */
+
+.site-nav .link {
+    color: var(--title-and-btn-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* -----Contacts header----- */
+
+.contacts-header .link {
+    color: var(--primary-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-header .link:hover,
+.contacts-header .link:focus {
+    color: var(--accent-color);
+}
+
+/* --------------------Main Index Part!-------------------- */
+
+/* -----Hero----- */
+
+/* In the future there'll be image */
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+
+/* -----Buttons!----- */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.hero-button {
+    font-weight: 700;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-and-btn-color);
+    background-color: var(--button-bgd-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--hero-btn-accent-color);
+}
+
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+/* -----Section----- */
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* -----Our features----- */
+
+.features-list .title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-list .text {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* -----Our progects----- */
+
+
+
+/* -----Our team----- */
+
+.team {
+    background-color: var(--secondary-bgd-color);
+}
+
+.team .team-list {
+    background-color: var(--primary-white-color);
+}
+
+.team .title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team .text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* --------------------Main Portfolio Part!-------------------- */
+
+.filtr {
+    background-color: var(--primary-white-color);
+}
+
+.filtr-list {
+    background-color: var(--primary-white-color)
+}
+
+.filtr .title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.filtr .text {
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+/* --------------------Site footer!-------------------- */
+
+
+.page-footer {
+    background-color: var(--footer-bgd-color);
+}
+
+.logo-footer {
+    color: var(--primary-white-color);
+}
+
+/* .logo-footer:hover,
+.logo-footer:focus {
+    color: var(--accent-color);
+} */
+
+/* hover and focus for google-map didn't do speciality */
+
+.footer-address {
+    color: var(--primary-white-color);
+}
+
+.footer-mail.link {
+    color: var(--footer-contacts-color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+    color: var(--accent-color);
+}
+
+.page-footer .contacts-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
