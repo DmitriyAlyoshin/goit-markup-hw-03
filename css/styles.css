@@ -320,11 +320,9 @@ button {
 }
 
 .team .title-name {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
-
+    margin-top: 30px;
+    margin-bottom: 10px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -386,10 +384,10 @@ button {
 }
 
 .filtr .container .item .title {
-    padding-top: 20px;
-    padding-bottom: 4px;
     padding-left: 24px;
     padding-right: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
 
     font-size: 18px;
     line-height: 2;
